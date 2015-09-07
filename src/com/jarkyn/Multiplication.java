@@ -11,7 +11,7 @@ public class Multiplication {
         return rows;
     }
 
-    public static String row(int multiplicand, int multiplier) {
+    private static String row(int multiplicand, int multiplier) {
         return multiplicand + " x " + multiplier + " = " + multiplicand * multiplier;
     }
 }
